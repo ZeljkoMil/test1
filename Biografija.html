@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Željko Milošević
+	</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+ 	<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ 	<!-- Ja se mrdam dok ne skines CV :) -->
+	<script type="text/javascript" src="js/shake.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/tooltip.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header class="header">
+			<img id="imgo" src="images/bio.png">
+			<div class="bio-header">
+				<h1>Željko Miloševi<span class="small-letter">ć</span></h1>
+				<h2 style="padding: 10px;">Frontend developer <span class="ucenik"> - U<span class="small-letter">č</span>enik</span></h2>
+				<div class="tooltip" id="cv"> <div style="clear: both"></div>
+					<a href="doc/BiografijaZeljkoMilosevic.doc" download onclick="downloadCV()">
+		  				<img src="images/cv.png" alt="CV" title="Skinite CV">
+		  				 <span class="tooltiptext">Biografija i motivaciono pismo</span>
+					</a>
+					<!-- <a href="doc/MotivacionoPismo.doc" download>
+		  				<img  src="images/letter.png" alt="motivaciono pismo" title="Motivaciono pismo">
+					</a> -->
+				</div>
+			</div>
+		</header>
+
+	
+
+		<section class="main">
+			<div class="main-section">
+				<div class="skills">
+					<div id="font" class="skills2">
+						<img class="imga" src="images/icon.png">
+						<h1 >IKT veštine</h1> <div style="clear:both"></div>
+						
+							<div class="ikt">
+								<p>HTML</p>
+								<p>CSS</p>
+								<p>JAVASCRIPT</p>
+								<p>JQUERY</p>
+								<p>ANGULAR</p>
+							</div>	
+
+							<div class="prog">
+								<progress max="100" value="80"></progress><br>
+								<progress max="100" value="71"></progress><br>
+								<progress max="100" value="65"></progress><br>
+								<progress max="100" value="50"></progress><br>
+								<progress max="100" value="75"></progress>
+							</div>
+					</div>
+				</div>
+				<div class="skills">
+					<div class="skills2">
+						<img class="imga" src="images/icon-lang.png">
+						<h1 id="foo">Strani jezik</h1> <div style="clear:both"></div>
+						<table>
+						  <tr>
+						    <th >Jezik</th>
+						    <th>Čitanje</th>
+						    <th>Pričanje</th>
+						    <th>Pisanje</th>
+						  </tr>
+						  <tr>
+						   	<td>Engleski</td>
+						    <td>C1</td>
+						    <td>B2</td>
+						    <td>B2</td>
+						  </tr>
+						</table>
+						<p>Zajednički evropski referentni okvir za jezike: A1/2 - početnik, B1/2 - samostalni korisnik, C1/2 iskusni korisnik.</p>
+					</div>
+				</div>
+				<div class="skills">
+					<div class="skills2">
+						<img class="imga" src="images/contact.png">
+						<h1>Kontakt</h1> <div style="clear:both"></div>
+						<div id="icon"> <img id="icons" src="images/phone.png"> <p class="kontakt-tekst">064/069-02-99</p> </div> <div style="clear:both"></div>
+						<div id="icon"> <img id="icons" src="images/let.png"> <p class="kontakt-tekst">zeljko1milosevic@gmail.com</p> </div> <div style="clear:both"></div>
+						<div id="icon"> <img id="icons" src="images/linked.png"> <a class="linked" href="https://www.linkedin.com/in/%C5%BEeljko-milo%C5%A1evi%C4%87-31418813b" target="_blank">LinkedIn profil</a> </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="line"> </div>
+
+			<div class="second-section">
+				<div class="skills">
+					<div id="font" class="skills2">
+					<img class="imga" src="images/edu.png">
+						<h1 id="foo">Obrazovanje</h1> <div style="clear:both"></div>
+						<table>
+						    <tr>
+							    <th>Institucija</th>
+							    <th>Godina</th>
+							    <th>Zvanje</th>
+						    </tr>
+						    <tr>
+							   	<td>Visoka tehnička škola Kragujevac</td>
+							    <td>2009/15</td>
+							    <td>Strukovničar informatike</td>
+						    </tr>
+						</table>
+					
+						<table>
+						    <tr>
+							    <th>Trening</th>
+							    <th>Godina</th>
+							    <th>Tehnologije </th>
+						    </tr>
+						    <tr>
+							   	<td>"Novi poslovi za mlade u IKT sektoru 2"</td>
+							    <td>2016/17</td>
+							    <td style="font-size: 14.8px;">HTML, CSS, JavaScript, Angular JS</td>
+						    </tr>
+						</table>
+					</div>
+				</div>
+				<div class="skills">
+					<div id="font" class="skills2">
+					<img class="imga" src="images/exp.png">
+						<h1 id="foo">Volonterski rad</h1> <div style="clear:both"></div>
+					
+					<table>
+						<tr>
+						    <th>Organizacija</th>
+						    <th>Godina</th>
+						    <th>Pozicija</th>
+						    <th>Osnovne aktivnosti</th>
+						</tr>
+						<tr>
+						   	<td>Kraguj "Upik"</td>
+						    <td>2014</td>
+						    <td>Volonter</td>
+						    <td>Izrada sajta za potrebe društva (wordpress)</td>
+						   
+						</tr>
+						</table>
+					</div>
+				</div>
+				<div class="skills">
+					<div class="skills2">
+					<img class="imga" src="images/personal.png">
+						<h1 id="foo">Lične osobine</h1> <div style="clear:both"></div>
+					
+					<p ><img style="width:32px; height:32px;" src="images/edu.png"> Uvek spreman za dalja usavršavanja i učenje.</p>
+					<p> <img style="width:32px; height:32px;" src="images/icon.png"> Uporan i snalažljiv u datim situacijama.</p>	
+					<p> <img style="width:32px; height:32px;" src="images/exp.png"> Sposoban kako za timski, tako i za individualni rad.</p>	
+					<!-- <p>Spreman za rad pod pritiskom, kao i za prekovremeni rad.</p> -->
+					</div>
+				</div>
+			</div>
+
+		
+		</section>	
+	</div>
+</body>
+<script type="text/javascript">
+
+</script>
+</html>
